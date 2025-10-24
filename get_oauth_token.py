@@ -2,9 +2,7 @@ import requests
 from urllib.parse import urlencode, parse_qs, urlparse
 
 # OAuth credentials
-CLIENT_ID = "6a02771f-7bbc-4906-8c81-4b281e2ca0ea"
-CLIENT_SECRET = "ff839eb7-957f-4fa2-96ae-f49e9d6b9fe8"
-REDIRECT_URI = "http://localhost"
+
 
 # Scopes (exact scopes from your app)
 SCOPES = "crm.objects.companies.read crm.objects.companies.write crm.objects.contacts.read crm.objects.contacts.write oauth"
